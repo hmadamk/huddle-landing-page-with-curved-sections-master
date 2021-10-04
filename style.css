@@ -118,9 +118,6 @@ section{
     margin-inline: auto;
     text-align: center;
 }
-section p{
-    width:min(100%,57ch);
-}
 section img{
     display: block;
     width: 100%;
@@ -280,6 +277,9 @@ form input[type="submit"]:hover{
     }
     footer p{
         width:min(100%,41ch);
+    }
+    section p{
+        width:min(100%,57ch);
     }
 }
 @media(max-width:771px){
