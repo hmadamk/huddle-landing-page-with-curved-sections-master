@@ -36,9 +36,10 @@ h2,h3,h4{
 .head{
     display: flex;
     align-items: center;
+    margin-top:2rem;
 }
 .head .logo img{
-    width:180px;
+    width:200px;
     margin-top: 5px;
 }
 
@@ -64,10 +65,10 @@ h2,h3,h4{
 }
 .main-content{
     text-align: center;
-    margin-top: 14rem;
+    margin-top: 12rem;
 }
 .main-content h2{
-    font-size: clamp(1.8rem,7vw,2.7rem);
+    font-size: clamp(1.8rem,7vw,2.9rem);
     color:var(--Very-Dark-Cyan);
 }
 .main-content p{
@@ -79,16 +80,16 @@ h2,h3,h4{
     font-weight: 600;
 }
 .get-started{
-    padding: 1.5em;
+    padding: 1.8em;
     border-radius: 2rem;
     border:none;
     background-color: var(--Pink);
     color:#fff;
     font-weight: 700;
-    width:min(50vw,300px);
+    width:min(50vw,400px);
     transition: background-color 300ms ease-in-out;
     cursor: pointer;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
     box-shadow: 3px 3px 20px -10px var(--Pink);
 }
 .get-started:hover{
@@ -108,7 +109,7 @@ h2,h3,h4{
     align-items: center;
     text-align: center;
     
-    width:min(90vw,900px);
+    width:min(90vw,1000px);
     
     margin-inline:auto;
     margin-bottom: 4rem;
@@ -118,7 +119,7 @@ h2,h3,h4{
     float: left;
 }
 .stats h3{
-    font-size: clamp(1.8rem,10vw,4rem);
+    font-size: clamp(1.8rem,10vw,5rem);
     margin-bottom: 0;
 }
 .stats p{
@@ -226,7 +227,7 @@ form input[type="submit"]:hover{
     margin-left: 1rem;
 }
 .social{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 .social i{
     margin-right:1rem;
@@ -299,6 +300,9 @@ form input[type="email"]{
     }
     section p{
         width:min(100%,57ch);
+    }
+    .contact-info{
+        padding-bottom: 8rem;
     }
 }
 @media(max-width:771px){
