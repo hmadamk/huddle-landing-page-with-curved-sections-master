@@ -29,6 +29,9 @@ body{
 h2,h3,h4{
     font-family: 'Poppins', sans-serif;
 }
+p{
+    font-size: 18px;
+}
 .container{
     width:min(90vw,1440px);
     margin:auto;
@@ -71,14 +74,13 @@ h2,h3,h4{
     color:var(--Very-Dark-Cyan);
 }
 .main-content p{
-    font-size: 1rem;
     color:var(--Very-Dark-Cyan);
     margin-bottom: 2.5rem;
-    width:min(80vw,500px);
+    width:clamp(200px,53ch,80vw);
     margin-inline:auto;
 }
 .get-started{
-    padding: 1.8em;
+    padding: 2em;
     border-radius: 2rem;
     border:none;
     background-color: var(--Pink);
@@ -113,12 +115,13 @@ h2,h3,h4{
     margin-bottom: 4rem;
 }
 .stats img{
-    width:30px;
+    width:40px;
     float: left;
 }
 .stats h3{
     font-size: clamp(1.8rem,10vw,5rem);
     margin-bottom: 0;
+    margin-top: 1rem;
 }
 .stats p{
     color:gray;
@@ -213,6 +216,7 @@ form input[type="submit"]{
     border:none;
     color:#fff;
     cursor: pointer;
+    font-weight: 600;
 }
 form input[type="submit"]:hover{
     background-color: var(--Light-Pink);
@@ -294,7 +298,7 @@ form input[type="email"]{
     }
     form input[type="submit"]{
         margin-left: 2rem;
-        width:min(30%,400px);
+        width:min(25%,400px);
     }
     footer p{
         width:min(100%,41ch);
